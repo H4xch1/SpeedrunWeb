@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "69fa101174c0532edfabc114"
+  },
+  "nama": "ya",
+  "kelas": 3,
+  "role": "siswa",
+  "password": "234",
+  "Nisn/Nik": 123
+}]

@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "69fa184d74c0532edfabc117"
+  },
+  "id_siswa": {
+    "$code": "function(t){return(0,i.assertArgsDefinedType)([t],[[void 0,\"string\",\"number\",\"object\"]],\"ObjectId\"),\"number\"==typeof t?new e.ObjectId(e.ObjectId.generate(t)):new e.ObjectId(t)}"
+  },
+  "status": "mati",
+  "jam": "8:00",
+  "tanggal": {
+    "$date": "2026-05-05T16:18:21.132Z"
+  },
+  "keterangan": "ketabrak"
+}]
