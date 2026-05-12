@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +17,9 @@
     "express": "^5.2.1",
     "mongodb": "^7.2.0",
     "mongoose": "^9.6.1",
-    "nodemon": "^3.1.14"
+    "next": "^16.2.6",
+    "nodemon": "^3.1.14",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   }
 }
