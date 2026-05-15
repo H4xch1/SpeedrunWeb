@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "69faffef6eb9f75a70abc114"
+  },
+  "nama": "",
+  "status": "",
+  "jam": "3:00",
+  "tanggal": {
+    "$code": "function(e){if(void 0===e)return new Date;if(\"string\"!=typeof e)return new Date(e);const t=/^(?<Y>\\d{4})-?(?<M>\\d{2})-?(?<D>\\d{2})([T ](?<h>\\d{2})(:?(?<m>\\d{2})(:?((?<s>\\d{2})(\\.(?<ms>\\d+))?))?)?(?<tz>Z|([+-])(\\d{2}):?(\\d{2})?)?)?$/.exec(e);if(null!==t&&void 0!==t.groups){const{Y:e,M:n,D:r,h:i,m:o,s:a,ms:c,tz:l}=t.groups,u=new Date(`${e}-${n}-${r}T${i||\"00\"}:${o||\"00\"}:${a||\"00\"}.${c||\"000\"}${l||\"Z\"}`);if(u.getTime()>=-621672192e5&&u.getTime()<=0xe677d21fdbff)return u}throw new r.MongoshInvalidInputError(`${JSON.stringify(e)} is not a valid ISODate`,r.CommonErrors.InvalidArgument)}"
+  },
+  "keterangan": "",
+  "foto": {
+    "url": "",
+    "nama_file": ""
+  }
+}]
